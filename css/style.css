@@ -297,313 +297,249 @@ header{
     font-size: .875rem;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 990px) {
+    body {
+        width: 100%;
+    }
+
     .header-section{
-        width: 37rem;
-        background-position-x: -500px;
-        background-position-y: 90px;
+        width: 100%;
+        background-position: 70% center;
+        background-position-y: 100px;
+    }
+    
+    .header-text .text-heading h1 {
+        font-size: 4.05rem;    
+        }
+    
+    
+    .header-text .text-heading hr {
+        height: 12px; 
+        width: 70%;   
+    }
+    
+    .header-text .text-heading h3 {
+        font-size: 3.05rem;
+    }
+    
+    .header-section .header-text .header-text-image {
+        padding-top: 10px;
+        gap: 2cm;
     }
 
     .header-section .header-text .text-heading{
-        margin-top: 550px;
+        padding-top: 100px;
     }
 
-    .header-logo{
+    
+    .services{
+        width: 100%;
+    }
+
+    .showcase-section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center; 
+    }
+
+    .showcase-section img{
+        width: 600px;
+        height: auto;
+    }
+
+    .showcase-section .showcase1 p{
+        width: 60%;
+        text-align: justify;
+    }
+
+    .subscribe-section {
+        width: 100%;
         display: flex;
         flex-direction: row;
-    }
-
-    .header-section img{
-        width: 100%;
-    }
-
-    .header-text h3{
-        font-size: 40px;
-    }
-
-    .header-text h1{
-        font-size: 55px;
-    }
-
-    .header-text hr{
-        width: 100%;
-    }
-
-    .services{
-        width: 37rem;
-    }
-
-    .services h1{
-        font-size: 45px;
-    }
-
-    .services p{
-        width: 100%;
-        font-size: 22px;
-    }
-
-
-    .header-text-image{
-        display: none;
-    }
-
-    .showcase-section{
-        display: flex;
-        flex-direction: column;
-        width: 37rem;
-        padding: 30px;
-    }
-
-    .workdone{
-        padding-bottom: .9375rem;
-    }
-
-    .workdone p{
-        font-size: 0.6rem;
-    }
-
-    .subscribe-section{
-        display: flex;
-        flex-direction: column;
-        width: 37rem;
         height: auto;
-        align-items: center;
         padding-bottom: 20px;
     }
 
+    .subscribe-section .image-subscribe img{
+        width: 350px;
+    }
+
+    .subscribe-section .subscribe-text h1{
+        font-size: 35px;
+    }
+
     .subscribe-section .subscribe-text h3{
-        width: 400px;
-    }
-
-    .subscribe-section .subscribe-text hr{
-        width: 25rem;
-    }
-
-    .services-done{
-        width: 37rem;
-    }
-
-    .services-done .handyman-services .workdone img{
-        width: 100px;
+    font-size: 15px;
     }
 
     .services-done .handyman-services .workdone p{
-        width: 70%;
-    }
-
-    .services-done .handyman-services .workdone h2{
-        font-size: 40px;
-    }
-
-    .workdone p{
-        font-size: 1.5625rem;
+        padding-bottom: 20px;
     }
 
     .handyman-services{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
     }
 
-    .about-section{
+    .about-section {
         display: flex;
         flex-direction: column;
-        width: 37rem;
+        width: 100%;
+        padding-left: 0;
+        padding-top: 4.375rem;
+        padding-right: 25.25rem;
+        padding-bottom: 4.375rem;
+        align-items: center;
     }
 
-    .about-us{
+    .image-display{
+        display: flex;
+        flex-direction: row;
+        padding-top: 20px;
+    }
+
+    .about-section .about-us .about-heading {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .about-section .image-display .image-about-us img{
         width: 300px;
-        text-align: justify;
+        height: 300px;
+        padding-left: 0;
     }
 
-    .about-us h3{
-        font-weight: normal;
-        padding-bottom: 10px;
+    .about-section .about-us .p-text {
+        font-size: 50px;
+        padding-right: 20px;
     }
 
-    .image-display .image-about-us .about-image{
-        width: 400px;
-        height: 400px;
-    }
-
-    .image-display{
-        width: 350px;
-        text-align: center;
-    }
-
-    .image-display{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .about-us .p-text{
-        font-size: 60px;
-    }
-
-    .about-us .s-text{
-        font-size: 70px;
+    .about-section .about-us .s-text {
+    font-size: 50px;
     }
 
     .foot-sect{
-        width: 37rem;
+        width: 100%;
     }
 
-    .foot-button{
-        display: flex;
-        flex-direction: column;
-        width: 50%;
+    .foot-sect h1{
+        font-size: 35px;
+        width: 80%;
         margin: auto;
     }
 
-    .footer{
-        width: 37rem;
+    .foot-sect p{
+        font-size: 25px;
+    }
+
+    .footer {
+        width: 100%;
     }
 
     .footer p{
         width: 70%;
     }
-}   
+    
+}
 
-@media (max-width: 767px) {  
-    .header-section{
-        width: 900px;
-        background-position-x: -650px;
-        background-position-y: 90px;
-        height: auto;
+@media (max-width: 600px) {
+    body{
+        width: 100%;
     }
+
+   .header-section{
+       width: 100%;
+       background-position-x: -31.25rem;
+       background-position-y: 5.625rem;
+   }
+
+   .header-text .text-heading h1 {
+        font-size: 2.75rem;    
+    }
+
+   .header-text .text-heading hr {
+       height: .55rem; 
+       width: 100%;   
+   }
+
+   .header-text .text-heading h3 {
+    font-size: 2.25rem;
+   }
 
     .header-section .header-text .text-heading{
-        margin-top: 550px;
+    padding-top: 300px;
     }
 
-    .header-logo{
-        display: flex;
-        flex-direction: row;
-    }
-
-    .header-section img{
-        width: 100%;
-    }
-
-    .header-text h3{
-        font-size: 40px;
-    }
-
-    .header-text h1{
-        font-size: 55px;
-    }
-
-    .header-text hr{
-        width: 100%;
+   .header-text-image{
+    display: none;
     }
 
     .services{
-        width: 900px;
-    }
-
-    .services h1{
-        font-size: 60px;
+        width: 100%;
     }
 
     .services p{
-        font-size: 250x;
-        width: 90%;
-    }
-
-    .showcase-section{
-        width: 900px;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding: 20px;
-    }
-
-    .showcase-section img{
-        width: 800px;
-        height: auto;
-    }
-
-    .image-subscribe img{
-        width: 500px;
-    }
-
-    .subscribe-section{
-        width: 900px;
-        padding-left: 90px;
-    }
-
-    .subscribe-section .subscribe-text h1{
-        font-size: 45px;
-        line-height: 1.2;
-    }
-
-    .subscribe-section .subscribe-text hr{
-        height: 8px;
-    }
-
-    .subscribe-section .subscribe-text h3{
+        width: 100%;
         font-size: 15px;
     }
 
-    .services-done{
-        width: 900px;
-        padding: 30px;
-    }
-
-    .services-done h1{
-        padding-left: 25px;
-        padding-top: 0;
-        font-size: 60px;
-    }
-
-    .handyman-services{
-        padding: 0;
-    }
-
-    .about-section{
-        width: 900px;
+    .showcase-section {
+        width: 100%;
         display: flex;
         flex-direction: column;
-    }
-
-    .about-section .image-display{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .about-section .about-us .about-heading{
-        display: flex;
-        flex-direction: row;
-    }
-
-    .about-section .about-us{
-        width: 750px;
-        text-align: justify;
-        padding-bottom: 20px;
-    }
-
-    .about-section .about-us h1{
-        font-size: 90px;
-        padding-right: 15px;
-    }
-    
-    .image-display .image-about-us .about-image{
-        width: 700px;
-        height: auto;
-    }
-
-    .image-display{
-        width: 650px;
+        padding: 50px;
         text-align: center;
     }
 
-    .foot-sect{
-        width: 900px;
+    .showcase-section img{
+        width: 400px;
+        height: auto;
     }
 
-    .footer{
-        width: 900px;
+    .showcase-section .showcase1 p{
+        width: 80%;
+    }
+
+    .subscribe-section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .handyman-services{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .about-section .image-display .image-about-us img{
+        width: 400px;
+    }
+
+    .image-display{
+        display: flex;
+        flex-direction: column;
+    } 
+
+    .foot-sect{
+        width: 100%;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .footer p{
+        width: 70%;
     }
 
 }
-
 
